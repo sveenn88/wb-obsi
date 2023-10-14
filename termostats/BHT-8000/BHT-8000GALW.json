@@ -1,0 +1,107 @@
+{
+  "device_type": "thermostat2",
+  "title": "BHT-8000GALW",
+  "group": "g-thermostat",
+  "device": {
+    "name": "BHT-8000GALW",
+    "id": "BHT-8000GALW",
+    "groups": [
+      {
+        "title": "Channels",
+        "id": "channels",
+        "order": 1
+      }
+    ],
+    "channels": [
+      {
+        "name": "Power",
+        "reg_type": "holding",
+        "address": 0,
+        "type": "switch",
+        "format": "u16",
+        "on_value": "0x001",
+        "off_value": "0x000",
+        "group": "channels"
+      },
+      {
+        "name": "Mode",
+        "reg_type": "holding",
+        "address": 1,
+        "type": "switch",
+        "format": "u16",
+        "on_value": "0x001",
+        "off_value": "0x000",
+        "group": "channels"
+      },
+      {
+        "name": "Lock",
+        "reg_type": "holding",
+        "address": 3,
+        "type": "switch",
+        "format": "u16",
+        "on_value": "0x001",
+        "off_value": "0x000",
+        "group": "channels"
+      },
+      {
+        "name": "ManualTemp",
+        "reg_type": "holding",
+        "address": 2,
+        "type": "temperature",
+        "format": "u16",
+        "scale": 0.1,
+        "group": "channels"
+      },
+      {
+        "name": "Minutes",
+        "reg_type": "holding",
+        "address": 4,
+        "type": "temperature",
+        "format": "u16",
+        "scale": 1,
+        "group": "channels"
+      },
+      {
+        "name": "Hours",
+        "reg_type": "holding",
+        "address": 5,
+        "type": "temperature",
+        "format": "u16",
+        "scale": 1,
+        "group": "channels"
+      },
+      {
+        "name": "Week",
+        "reg_type": "holding",
+        "address": 6,
+        "type": "temperature",
+        "format": "u16",
+        "scale": 1,
+        "group": "channels"
+      },
+      {
+        "name": "InternalSensor",
+        "reg_type": "holding",
+        "address": 7,
+        "type": "temperature",
+        "format": "u16",
+        "scale": 0.1,
+        "group": "channels"
+      }
+    ],
+    "parameters": [],
+    "translations": {
+      "ru": {
+        "Power": "Power",
+        "Mode": "Дневной режим/Ручной режим",
+        "Hours": "Часы",
+        "Minutes": "Минуты",
+        "Week": "День недели",
+        "ManualTemp": "Ручная настройка",
+        "Lock": "Блокировка кнопок",
+        "InternalSensor": "Внешний датчик"
+      }
+    }
+  }
+}
+
