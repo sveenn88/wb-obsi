@@ -7,5 +7,5 @@
 - [MWAC настройка регистров](./MWAC%20(registr).md)
 
 ## Network
-- [OPenVPN + CR](./OpenVPN%20+%20CR.md)
+- [OpenVPN + CR](./OpenVPN%20+%20CR.md)
 - [SSH KeyGen](./SSH%20KeyGen.md)
