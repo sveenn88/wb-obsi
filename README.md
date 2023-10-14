@@ -1,1 +1,1 @@
-# wb-obsi
+# База знаний по Wiren Board
