@@ -1,10 +1,10 @@
 # База знаний по Wiren Board
 
-- [Backup WirenBoard](./Backup%20WB.md)
+- [WirenBoard](obsidian://open?vault=wb-obsi&file=WirenBoard%2FWirenBoard)
 
 ## Устройства
-- [Теромстаты](./thermostats/README.md)
-- [MWAC настройка регистров](./MWAC%20(registr).md)
+- [Термостаты](thermostats.md)
+- [MWAC настройка регистров](MWAC(registr).md)
 
 ## Network
 - [OpenVPN + CR](./OpenVPN%20+%20CR.md)

@@ -16,13 +16,17 @@
           }
         },
 		{
-          "name": "Внутренний датчик",
-          "type": "CurrentTemperature",
+          "name": "Целевая температура",
+          "type": "TargetTemperature",
           "link": {
             "type": "Float",
-            "topicSearch": "/devices/(BHT-8000GALW_[0-9]{1,3})/controls/InternalSensor/meta/type",
-            "topicGet": "/devices/(1)/controls/InternalSensor"
-          }
+            "topicSearch": "/devices/(BHT-8000GALW_[0-9]{1,3})/controls/ManualTemp/meta/type",
+            "topicGet": "/devices/(1)/controls/ManualTemp",
+			"topicSet": "/devices/(1)/controls/ManualTemp/on"
+          },
+          "minValue": 16,
+          "maxValue": 35,
+          "minStep": 0.5
         }
       ]
     }
